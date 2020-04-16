@@ -21,8 +21,8 @@ def bonus
   }
 
   #code your solution here:
-  epic_tragedy[:patriarch][:hero][:status].replace("dead")
-  epic_tragedy[:Capulet][:heroine][:status].replace("dead")
+  epic_tragedy[:patriarch][:hero][:status].update("dead")
+  epic_tragedy[:Capulet][:heroine][:status].update("dead")
 
   #Don't touch the following line! The `bonus` method must return our newly modified epic tragedy hash
   epic_tragedy
